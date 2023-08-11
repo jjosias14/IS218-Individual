@@ -1,8 +1,10 @@
 /* styles.css */
 nav {
-    background-color: #333;
+    background-color: #b30000; /* Dark red */
     color: white;
     text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -18,8 +20,36 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
-    color: #66ccff;
+    color: #e60000; /* Lighter red on hover */
 }
+
+/* Heroic red background color */
+body {
+    background-color: #990000; /* Slightly darker red */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* White body font color */
+    font-size: 20px; /* Increased font size */
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    font-size: 36px;
+}
+
+.container p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
