@@ -5,7 +5,7 @@ const { chromium } = require('playwright');
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  await page.goto('file:///path/to/your/index.html'); // Replace with your actual file path
+  await page.goto('https://jjosias14.github.io/IS218-Individual'); // Replace with your actual file path
 
   // Assert that the banner text is visible
   await page.waitForSelector('.banner h1');
