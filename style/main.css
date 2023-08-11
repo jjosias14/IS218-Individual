@@ -56,20 +56,13 @@ body {
 .info-box {
     background-color: #b30000; /* Dark red */
     color: white;
-    padding: 20px;
-    margin: 20px;
+    padding: 25px;
+    margin: 35px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.info-box-2{
-    background-color:#b30000; /* Dark red */
-    color: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+
 
 
 .banner {
@@ -81,4 +74,33 @@ body {
 
 .banner h1 {
     margin: 0;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.contact-links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    background-color: #777; /* Dark gray */
+    border-radius: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.contact-links ul li {
+    margin-bottom: 15px;
+}
+
+.contact-links ul li a {
+    text-decoration: none;
+    color: #b30000; /* Dark red */
+    font-weight: bold;
+    display: block;
+    font-size:60px;
 }
